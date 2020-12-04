@@ -23,6 +23,7 @@ def spiralOrder(matrix):
             ans.append(matrix[i][m-1])
         m-=1
             
+        #When we have reached the middle most element
         if(len(ans)==size):
             break
         
@@ -34,5 +35,4 @@ def spiralOrder(matrix):
             ans.append(matrix[i][colIndex])
         colIndex+=1
         
-    print(ans)
     return(ans)  
