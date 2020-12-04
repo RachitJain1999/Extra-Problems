@@ -1,3 +1,4 @@
+#Traversing the outermost elements first, then the ineer elements
 def spiralOrder(matrix):
     n = len(matrix)
     if(n==0):
