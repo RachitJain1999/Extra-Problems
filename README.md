@@ -6,7 +6,7 @@ set of numbers of size 4 from the array that sum up to 10. The ksum function tak
 
 <ins>Spiral Matrix</ins>: Displaying a matrix in spiral form. This means the outer most elements are displayed first and then the innermost in a circular/spiral manner. 
      
-     matrix = [[1,2,3],
+     matrix =[[1,2,3],
               [4,5,6],
               [7,8,9]], 
               
