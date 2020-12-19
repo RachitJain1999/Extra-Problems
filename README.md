@@ -11,3 +11,8 @@ set of numbers of size 4 from the array that sum up to 10. The ksum function tak
              [7,8,9]], 
               
     result = 1,2,3,6,9,8,7,4,5.
+
+<ins>Longest Consecutive Sequence</ins>: We have an array and we have to find the length of longest sequence we can form such that the numbers are in increments of 1.
+
+    arr = [0,2,4,5,0,1,1]
+    ans = 3 ([0,1,2]) 
