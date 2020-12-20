@@ -1,5 +1,6 @@
-#nums array is sorted
+#ksum function
 def kSum(nums, target, k):
+    #The nums array is assumed to be sorted already
     res = []
     if len(nums) == 0 or nums[0] * k > target or target > nums[-1] * k:
         return res
@@ -11,6 +12,7 @@ def kSum(nums, target, k):
                 res.append([nums[i]] + set)
     return res
 
+#Helper function 2sum
 def twoSum(nums, target):
     res = []
     lo, hi = 0, len(nums) - 1
@@ -26,7 +28,8 @@ def twoSum(nums, target):
             hi -= 1
     return res
 
-#Traversing the outermost elements first, then the ineer elements
+
+#Traversing the outermost elements first, then the inner elements
 def spiralOrder(matrix):
     n = len(matrix)
     if(n==0):
@@ -65,6 +68,7 @@ def spiralOrder(matrix):
         colIndex+=1
         
     return(ans)
+
 
 #Longest Consecutive sequence in an array
 def longestConsecutive(self, nums):
