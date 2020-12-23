@@ -2,6 +2,7 @@
 Some extra problems based on DSA.
 
 ## Array
+<p align="justify>
 <ins>KSum</ins>: We are given an array, a number n and k, we need to find all the unique combinations of k numbers that sum up to n. If n=10 and k=4, we need to find all unique 
 set of numbers of size 4 from the array that sum up to 10. The ksum function takes in a sorted array.
 
@@ -23,3 +24,5 @@ given array. We use properties of modulo sum and prefix array to solve this prob
 
     arr = [3,3,9,9,5], mod = 7
     answer = 6 for the subarray [3,3] ((3+3)mod7=6)
+
+</p>
