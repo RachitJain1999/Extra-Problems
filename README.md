@@ -18,4 +18,8 @@ set of numbers of size 4 from the array that sum up to 10. The ksum function tak
     arr = [0,2,4,5,0,1,1]
     ans = 3, The sequence is [0,1,2] 
 
-<ins>Maximum Subarray Modulo Sum</ins>: This is an extension of subarray sum problem, we need to find the maximum sum mod M that we can form from taking any subarray from a given array. We use properties of modulo sum and prefix array to solve this problem in O(nLogn).
+<ins>Maximum Subarray Modulo Sum</ins>: This is an extension of subarray sum problem, we need to find the maximum sum modulo M that we can form from taking any subarray from a 
+given array. We use properties of modulo sum and prefix array to solve this problem in O(nLogn).
+
+    arr = [3,3,9,9,5], mod = 7
+    answer = 6 for the subarray [3,3] ((3+3)mod7=6)
