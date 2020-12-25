@@ -110,11 +110,13 @@ def maximumSum(a, m):
     sums = sorted(sums)
     minimum = mod
 
-    for pos in range(0, size-1): #determine the minimum
+    #determine the minimum
+    for pos in range(0, size-1):
         if sums[pos][1] > sums[pos+1][1] and (sums[pos+1][0] - sums[pos][0] < minimum):
             minimum = sums[pos+1][0] - sums[pos][0]
 
-    if sums[size-1][0] > mod - minimum: #edge case
+    #edge case
+    if sums[size-1][0] > mod - minimum: 
         minimum = mod - sums[size-1][0]
 
     return(mod - minimum)
