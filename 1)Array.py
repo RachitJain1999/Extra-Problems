@@ -28,7 +28,7 @@ def twoSum(nums, target):
             hi -= 1
     return res
 
-#-----------------------------------------------------------------------------------------------------------------------------------------
+
 #Traversing the outermost elements first, then the inner elements
 def spiralOrder(matrix):
     n = len(matrix)
@@ -69,7 +69,7 @@ def spiralOrder(matrix):
         
     return(ans)
 
-#-----------------------------------------------------------------------------------------------------------------------------------------
+
 #Longest Consecutive sequence in an array
 def longestConsecutive(self, nums):
     longest_streak = 0
@@ -88,7 +88,7 @@ def longestConsecutive(self, nums):
 
     return longest_streak
 
-#-----------------------------------------------------------------------------------------------------------------------------------------
+
 #Maximum Subarray sum modulo m
 def maximumSum(a, m):
     size = len(a)
