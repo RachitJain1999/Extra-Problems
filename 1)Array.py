@@ -121,3 +121,15 @@ def maximumSum(a, m):
         minimum = mod - sums[size-1][0]
 
     return(mod - minimum)
+
+
+#Find numbers that are missing in an array of size n which has numbers only in range 1 to n.
+def findDisappearedNumbers(self, nums):
+    for i in range(len(nums)):
+        num = abs(nums[i])
+        nums[num-1] = -1*abs((nums[num-1]))
+    res=[]
+    for i,n in enumerate(nums):
+        if(n>0):
+            res.append(i+1)
+    return res
