@@ -31,3 +31,8 @@ given array. We use properties of modulo sum and prefix array to solve this prob
 
     arr = [3,3,9,9,5], mod = 7
     answer = 6 for the subarray [3,3] ((3+3)mod7=6)
+
+<p align="justify">
+<ins>Disappeared Numbers</ins>: Given an array that has numbers only in range 1 to n with some numbers getting repeated, find the numbers from 1 to n that are missing from the 
+array.  
+</p>
