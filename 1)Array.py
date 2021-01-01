@@ -127,8 +127,10 @@ def maximumSum(a, m):
 def findDisappearedNumbers(self, nums):
     for i in range(len(nums)):
         num = abs(nums[i])
+        #Store a negative number at all the positions that occur in array
         nums[num-1] = -1*abs((nums[num-1]))
     res=[]
+    #The position where a positive number is present in the missing number.
     for i,n in enumerate(nums):
         if(n>0):
             res.append(i+1)
