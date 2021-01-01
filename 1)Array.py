@@ -126,6 +126,7 @@ def maximumSum(a, m):
 #Find numbers that are missing in an array of size n which has numbers only in range 1 to n.
 def findDisappearedNumbers(self, nums):
     for i in range(len(nums)):
+        #Take absolute value in case we have already converted the number to negative
         num = abs(nums[i])
         #Store a negative number at all the positions that occur in array
         nums[num-1] = -1*abs((nums[num-1]))
